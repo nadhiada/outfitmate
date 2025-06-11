@@ -115,6 +115,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🔗 Links
 
 - [GitHub Repository](https://github.com/nadhiada/outfitmate)
-- [Live Demo](#) *(https://outfit-mate.infinityfreeapp.com)*
+- [Live Demo](https://outfit-mate.infinityfreeapp.com) 
 
 *"Look good without the guesswork"* - The OutfitMate Team
