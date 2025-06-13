@@ -1,52 +1,44 @@
-# OutfitMate - Your Personal Outfit Recommendation System
+# Outfit Mate - Manage Your Style
 
-## 📌 About OutfitMate
+Welcome to **Outfit Mate**, your ultimate fashion assistant! Outfit Mate helps you organize, plan, and style your outfits. Whether you're planning your wardrobe for a special event or simply need inspiration for everyday wear, this app has got you covered. Built using modern web technologies and a clean, intuitive design, Outfit Mate is here to make fashion fun and stress-free!
 
-OutfitMate is an intelligent web application that provides personalized outfit recommendations based on your preferences, weather conditions, and occasion. Whether you're preparing for a job interview, date night, or casual hangout, OutfitMate helps you look your best without the fashion dilemma.
+## 🚀 Features
 
-## ✨ Key Features
+- **Outfit Planning**: Organize your wardrobe and plan outfits for any occasion.
+- **Calendar Integration**: Sync your outfits with a calendar to keep track of your fashion choices.
+- **Clothing Categories**: Categorize your clothes for quick access—shirts, pants, dresses, shoes, and accessories.
+- **Customizable Profiles**: Create a personalized profile with your size, preferences, and clothing styles.
+- **Interactive UI**: A sleek and interactive interface that makes it easy to browse and select your outfits.
 
-- **Weather-Adaptive Suggestions** - Get outfit recommendations tailored to current weather conditions
-- **Occasion-Based Recommendations** - Perfect outfits for work, parties, dates, and more
-- **Virtual Wardrobe** - Digitally organize your clothing items
-- **Style Preferences** - Learns your fashion taste over time
-- **Mix & Match Generator** - Creates new combinations from your existing clothes
+## 🔥 Technologies Used
 
-## 🚀 How It Works
+- **Frontend**: 
+  - **HTML**: Structure of the web pages.
+  - **CSS**: Styling to make the app look modern and appealing.
+  - **JavaScript**: Bringing dynamic functionality to the app, including interactive outfit selections.
+  
+- **Backend**:
+  - **PHP**: The core backend logic for handling user requests, outfit data, and more.
+  - **MySQL**: Storing outfit data, user preferences, and planning history.
+  
+- **Database**: 
+  - **SQL**: Used for organizing data and queries for outfit management.
+  - **MongoDB**: Used for storing flexible, non-relational data such as user preferences or activity logs.  
+  - **JSON**: Formatting data in a way that is easily readable and transferable.
 
-1. **Create Your Profile**  
-   Set your style preferences, body type, and color choices
+## 🏁 Getting Started
 
-2. **Build Your Digital Wardrobe**  
-   Upload photos of your clothing items or select from our database
+### Prerequisites
 
-3. **Get Recommendations**  
-   Receive complete outfit suggestions based on:
-   - Current weather
-   - Planned occasion
-   - Your personal style
-   - Recent fashion trends
+Before you begin, make sure you have the following installed:
 
-4. **Save & Organize**  
-   Bookmark your favorite outfits for future reference
+- **PHP**: Version 7.4 or higher
+- **MySQL**: Version 5.7 or higher
+- **Web Browser**: Chrome, Firefox, Safari, or Edge
+- **MongoDB**: Version 4.0 or higher
+- **Tailwind CSS**: Included via CDN
 
-## 🛠️ Technology Stack
-
-- **Frontend**: HTML5, CSS3, JavaScript (React/Vue.js)
-- **Backend**: Node.js, PHP
-- **Database**: MySQL
-- **AI Components**: Python for recommendation algorithms
-- **Deployment**: GitHub Pages, Infinityfree
-
-## 🚧 Prerequisites
-
-Before you begin, ensure you have installed:
-- Node.js (v14+)
-- npm/yarn
-- MySQL
-- Git
-
-## 🛠️ Installation
+### Installation
 
 To get started with **Outfit Mate** locally, follow these steps:
 
@@ -59,7 +51,7 @@ To get started with **Outfit Mate** locally, follow these steps:
 2. Navigate to the project folder:
 
     ```bash
-    cd outfitmate
+    cd outfit-mate
     ```
 
 3. Install dependencies (if applicable):
@@ -67,7 +59,7 @@ To get started with **Outfit Mate** locally, follow these steps:
     For PHP and MySQL setup, follow these steps:
 
     - **PHP Setup**: Make sure your environment has PHP installed.
-    - **Database Setup**: Import the `outfit_mate.sql` file into your MySQL database.
+    - **Database Setup**: Import the `outfitmate_db.sql` file into your MySQL database.
 
 4. Start the PHP server:
 
@@ -83,19 +75,16 @@ To get started with **Outfit Mate** locally, follow these steps:
 
 6. That's it! You can now start planning your outfits.
 
-## 🌐 Live Demo
-
-Check out our live demo at: [https://outfit-mate.infinityfreeapp.com/](https://outfit-mate.infinityfreeapp.com/) 
+For detailed installation instructions, check the [Installation Guide](#).
 
 ## ⚙️ Usage
 
 After setting up the app, here’s how you can use **Outfit Mate**:
 
 1. **Sign Up / Log In**: Create an account or log in if you already have one.
-2. **Add Clothes**: Start adding items to your wardrobe. You can categorize them by type (e.g., shirts, pants, shoes).
-3. **Create Outfits**: Select pieces from your wardrobe and combine them to create stylish outfits.
-4. **Plan Your Week**: Sync your outfits with your calendar and plan your week’s outfits in advance.
-5. **Get Inspired**: If you're out of ideas, Outfit Mate will suggest random outfits based on your preferences and the weather.
+2. **Plan Your Daily Outfit**: Just choose your gender, event type, and age, and Outfit Mate will suggest outfits tailored to your profile.
+3. **Feedback & Inquiry Form**: Users can submit suggestions, feedback, or questions directly through the form available on the website.
+4. **Contact Options**: Users can send feedback via the form, or contact us through email and WhatsApp
 
 ## 🤝 Contributing
 
@@ -108,13 +97,40 @@ We love open-source contributions! If you'd like to contribute to **Outfit Mate*
 
 For more information about contributing, refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
-## 📄 License
+## 🐞 Reporting Issues
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+If you encounter any bugs or have suggestions for improvement, please report them in the [Issues](https://github.com/nadhiada/outfitmate/issues) section.
 
 ## 🔗 Links
 
 - [GitHub Repository](https://github.com/nadhiada/outfitmate)
 - [Live Demo](https://outfit-mate.infinityfreeapp.com) 
 
-*"Look good without the guesswork"* - The OutfitMate Team
+## 💬 Questions & Feedback
+
+We'd love to hear from you! Feel free to reach out with any questions or feedback via the [Issues Page](https://github.com/nadhiada/outfitmate/issues).
+
+---
+
+### Built With:
+- **PHP** for the backend logic.
+- **MySQL** for data management.
+- **HTML/CSS/JS** for the frontend.
+- **Bootstrap** for responsive design.
+
+
+
+## 📊 GitHub Activity & Stats
+
+### 🔥 Contribution Graph
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=nadhiada&theme=tokyo-night)
+
+### 🚀 GitHub Stats
+![Peter-sour GitHub Stats](https://github-readme-stats.vercel.app/api?username=nadhiada&show_icons=true&theme=radical)
+
+### 🧠 Most Used Languages
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nadhiada&layout=compact&theme=tokyonight)
+
+### ⏱️ GitHub Streak
+[![GitHub Streak](https://streak-stats.demolab.com?user=nadhiada&theme=dark)](https://git.io/streak-stats)
+
